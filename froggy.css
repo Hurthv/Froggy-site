@@ -281,18 +281,28 @@ body {
     .article-block_3_paragraph,
     .article-block_4_paragraph,
     .article-block_5_paragraph {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .article-block_1 {
-        height: 230px;
+        height: 280px;
     }
 
     .article-block_2,
     .article-block_3,
     .article-block_4,
     .article-block_5 {
-        height: 110px;
+        height: 135px;
+    }
+
+    .article-block_6,
+    .article-block_8 {
+        height: 255px;
+    }
+
+    .article-block_7,
+    .article-block_9 {
+        height: 125px;
     }
 
 }
@@ -305,6 +315,29 @@ body {
     .header-div {
         width: 350px;
     }
+}
+
+@media (max-width: 340px) {
+
+    .article-block_2_paragraph,
+    .article-block_3_paragraph,
+    .article-block_4_paragraph,
+    .article-block_5_paragraph {
+        font-size: 7px;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 250px;
+    }
+
+    .header-fixed {
+        font-size: 14px;
+    }
+
 }
 
 /*@media (max-width: 769px) {
